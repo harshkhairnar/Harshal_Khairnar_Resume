@@ -4,8 +4,9 @@ const Header = () => {
   return (
     <>
       <nav
-        class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+        class="navbar navbar-expand-lg navbar-dark  fixed-top"
         id="sideNav"
+        style={{backgroundColor:"#000"}}
       >
         <Link class="navbar-brand js-scroll-trigger" to="/">
           <span class="d-block d-lg-none">Harshal Khairnar</span>
